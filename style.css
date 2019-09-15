@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right, rgba(57, 198, 251, 0.7), rgba(21, 4, 56, 0.7)), url(./img/coin.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.container {
+  border: 2px solid #000;
+  position: absolute;
+  height: 40%;
+  width: 50%;
+  top: 30%;
+  left: 25%;
+  background-color: #f5fec0;
+  border-radius: 15%;
+  text-align: center;
+}
+
+.name {
+  margin: 20px 0;
+}
+
+.numbers {
+  margin: 7% 0;
+  font-weight: lighter;
+  color: #333;
+}
+
+.btn {
+  border: 2px solid #000;
+  cursor: pointer;
+  margin: auto;
+  padding: 10px 30px;
+  border-radius: 200px;
+  background-color: #96f7d2;
+  outline: none;
+}
